@@ -1,0 +1,27 @@
+# General
+.DS_Store
+.env
+.venv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# Node.js (if applicable for frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Docker
+*.swp
+*.swo

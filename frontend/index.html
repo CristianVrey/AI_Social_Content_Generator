@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Social Content Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Contenido para Redes Sociales</h1>
+        <div class="input-group">
+            <label for="topic">Tema:</label>
+            <input type="text" id="topic" placeholder="Ej: Marketing Digital, IA, Negocios">
+        </div>
+        <div class="input-group">
+            <label for="platform">Plataforma:</label>
+            <select id="platform">
+                <option value="Twitter">Twitter</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Instagram">Instagram</option>
+            </select>
+        </div>
+        <button id="generateBtn">Generar Contenido</button>
+        <div class="output-group">
+            <h2>Contenido Generado:</h2>
+            <textarea id="generatedContent" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
